@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+	int number;//input
+	cout<<" Enter a number "<<endl;
+	cin>>number;
+	if(number%2==0)
+	cout<<" The number is Even";
+	else
+	cout<<" The number is Odd ";
+	return 0;
+}
